@@ -3,17 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Seungyeob Lee's Project manager blog
+subtitle: 'Project managers should be able to do everything from planning, design, development, testing and deployment.'
 description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+keywords: Design thinking, lean startup, agile, C++, node.js
+author: Seungyeob Lee
+language:
+  - en
+  - ko
+timezone: 'Asia/Seoul'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://cppzeus.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -103,4 +105,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/cppzeus/cppzeus.github.io.git
+  branch: deploy
